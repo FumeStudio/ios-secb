@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NewsCard">
+            <rect key="frame" x="0.0" y="0.0" width="292" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newsPlaceHolder" id="YsJ-iL-bwi">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="QtU-bJ-LFh">
+                    <rect key="frame" x="71" y="5" width="221" height="55"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saudi Exhibition and Convention" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5dq-2q-ygi">
+                            <rect key="frame" x="0.0" y="0.0" width="201" height="20"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <color key="textColor" red="0.070588235289999995" green="0.1764705882" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fzS-Jf-FuQ">
+                            <rect key="frame" x="0.0" y="18" width="201" height="20"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <string key="text">Saudi Arabia has greatly enhanced..
+the development of exhibitions ... conv ...
+within the country. Recently, the Saudi Council of Ministers issued a national </string>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11.5"/>
+                            <color key="textColor" red="0.43137254901960786" green="0.43137254901960786" blue="0.43137254901960786" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 min ago" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MBS-gY-a4c">
+                            <rect key="frame" x="-1" y="36" width="201" height="20"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11.5"/>
+                            <color key="textColor" red="0.43137254899999999" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" image="newsCardArrowButton" id="18f-3I-sii">
+                            <rect key="frame" x="205" y="0.0" width="16" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="arrowImageView" destination="18f-3I-sii" id="iIz-j3-s2p"/>
+                <outlet property="drawableView" destination="YsJ-iL-bwi" id="Ncf-of-PN3"/>
+                <outlet property="newsDateLabel" destination="MBS-gY-a4c" id="uQP-JS-g9q"/>
+                <outlet property="newsDescLabel" destination="fzS-Jf-FuQ" id="dp1-7w-rA3"/>
+                <outlet property="newsImageView" destination="YsJ-iL-bwi" id="Zxz-f3-9cz"/>
+                <outlet property="newsTitleLabel" destination="5dq-2q-ygi" id="iSw-6K-hkH"/>
+                <outlet property="otherView" destination="QtU-bJ-LFh" id="Vvd-pL-rm4"/>
+                <outletCollection property="gestureRecognizers" destination="eLx-5d-evT" appends="YES" id="CpL-0E-P4J"/>
+            </connections>
+            <point key="canvasLocation" x="216" y="338.5"/>
+        </view>
+        <tapGestureRecognizer id="eLx-5d-evT">
+            <connections>
+                <action selector="cardTapped:" destination="iN0-l3-epB" id="KVo-AP-uue"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="newsCardArrowButton" width="6" height="11"/>
+        <image name="newsPlaceHolder" width="65" height="65"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

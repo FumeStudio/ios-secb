@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MenuView">
+            <rect key="frame" x="0.0" y="0.0" width="338" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="dQ8-lA-r5D" customClass="MenuViewEntry">
+                    <rect key="frame" x="1" y="20" width="338" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="menuSeparator" id="Mmu-aY-SpU">
+                            <rect key="frame" x="0.0" y="66" width="338" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="iPad_menuHomeIcon" highlightedImage="menuHomeSelected" id="DtN-Wd-olv">
+                            <rect key="frame" x="27" y="0.0" width="24" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oKC-1V-u9j">
+                            <rect key="frame" x="86" y="0.0" width="252" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16.5"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pf3-zz-val">
+                            <rect key="frame" x="0.0" y="0.0" width="338" height="68"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuItemButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="WLW-u8-dKc"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="entryIcon" destination="DtN-Wd-olv" id="Omg-aO-4Av"/>
+                        <outlet property="entryLabel" destination="oKC-1V-u9j" id="4Hj-Vz-cul"/>
+                    </connections>
+                </view>
+                <view tag="1" contentMode="scaleToFill" id="ejS-t6-Vuc" customClass="MenuViewEntry">
+                    <rect key="frame" x="1" y="88" width="338" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="menuSeparator" id="dql-W0-5xu">
+                            <rect key="frame" x="0.0" y="66" width="338" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="iPad_menuEServiceIcon" highlightedImage="menuServiceSelected" id="k7K-0B-dfq">
+                            <rect key="frame" x="27" y="0.0" width="24" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-Service" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I8j-HO-Rv0">
+                            <rect key="frame" x="86" y="0.0" width="252" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16.5"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="796-Em-gPn">
+                            <rect key="frame" x="0.0" y="0.0" width="338" height="68"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuItemButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="gTP-iw-n80"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="entryIcon" destination="k7K-0B-dfq" id="D1N-B0-LTh"/>
+                        <outlet property="entryLabel" destination="I8j-HO-Rv0" id="j0P-mb-y5j"/>
+                    </connections>
+                </view>
+                <view tag="2" contentMode="scaleToFill" id="hfO-O9-acZ" customClass="MenuViewEntry">
+                    <rect key="frame" x="1" y="156" width="338" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="menuSeparator" id="5fc-Dr-h1j">
+                            <rect key="frame" x="0.0" y="66" width="338" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="iPad_menuNewsIcon" highlightedImage="menuNewsSelected" id="YfF-5g-ZwU">
+                            <rect key="frame" x="27" y="0.0" width="24" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YaM-sU-G99">
+                            <rect key="frame" x="86" y="0.0" width="252" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16.5"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cPQ-e1-rmZ">
+                            <rect key="frame" x="0.0" y="0.0" width="338" height="68"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuItemButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="hhu-Vr-XNn"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="entryIcon" destination="YfF-5g-ZwU" id="hVj-eM-8eO"/>
+                        <outlet property="entryLabel" destination="YaM-sU-G99" id="17c-bE-0sk"/>
+                    </connections>
+                </view>
+                <view tag="3" contentMode="scaleToFill" id="4r9-Db-zVu" customClass="MenuViewEntry">
+                    <rect key="frame" x="1" y="224" width="338" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="menuSeparator" id="suI-xL-cxi">
+                            <rect key="frame" x="0.0" y="66" width="338" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="iPad_menuEguideIcon" highlightedImage="menuEguideSelected" id="hJL-wb-WZd">
+                            <rect key="frame" x="27" y="0.0" width="24" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-Guide" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ixl-lr-KdB">
+                            <rect key="frame" x="86" y="0.0" width="252" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16.5"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vbi-6h-0Cf">
+                            <rect key="frame" x="0.0" y="0.0" width="338" height="68"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuItemButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="K4g-yB-95d"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="entryIcon" destination="hJL-wb-WZd" id="dSX-U7-xGI"/>
+                        <outlet property="entryLabel" destination="Ixl-lr-KdB" id="MVm-CF-BMS"/>
+                    </connections>
+                </view>
+                <view tag="4" contentMode="scaleToFill" id="CVW-Le-m9s" customClass="MenuViewEntry">
+                    <rect key="frame" x="1" y="292" width="338" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="menuSeparator" id="NQG-5Q-Yns">
+                            <rect key="frame" x="0.0" y="66" width="338" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="iPad_menuEventsIcon" highlightedImage="menuEventsSelected" id="fv0-Oa-FlX">
+                            <rect key="frame" x="27" y="0.0" width="24" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Events" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lmo-hJ-Yko">
+                            <rect key="frame" x="86" y="0.0" width="252" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16.5"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="M3O-4J-N5i">
+                            <rect key="frame" x="0.0" y="0.0" width="338" height="68"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuItemButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="vR5-EC-aZZ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="entryIcon" destination="fv0-Oa-FlX" id="Jdi-Xg-lwO"/>
+                        <outlet property="entryLabel" destination="lmo-hJ-Yko" id="Xxr-U9-2uC"/>
+                    </connections>
+                </view>
+                <view tag="5" contentMode="scaleToFill" id="IHu-5u-hn6" customClass="MenuViewEntry">
+                    <rect key="frame" x="1" y="360" width="338" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="menuSeparator" id="Uos-n8-HKb">
+                            <rect key="frame" x="0.0" y="66" width="338" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="iPad_menuImagesIcon" highlightedImage="menuImagesSelected" id="OLF-1P-wfb">
+                            <rect key="frame" x="27" y="0.0" width="24" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Images" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n7o-Ui-IV5">
+                            <rect key="frame" x="86" y="0.0" width="252" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16.5"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sbR-BJ-Hgj">
+                            <rect key="frame" x="0.0" y="0.0" width="338" height="68"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuItemButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="tpk-Lh-Zd7"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="entryIcon" destination="OLF-1P-wfb" id="fWW-Z2-vKp"/>
+                        <outlet property="entryLabel" destination="n7o-Ui-IV5" id="ET6-2V-fHD"/>
+                    </connections>
+                </view>
+                <view tag="6" contentMode="scaleToFill" id="Q3g-q9-grt" customClass="MenuViewEntry">
+                    <rect key="frame" x="1" y="428" width="338" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="menuSeparator" id="Vmm-8P-rCY">
+                            <rect key="frame" x="0.0" y="66" width="338" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="iPad_menuVideosIcon" highlightedImage="menuVideosSelected" id="ZiI-Kp-ayP">
+                            <rect key="frame" x="27" y="0.0" width="24" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Videos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G5j-z0-rsH">
+                            <rect key="frame" x="86" y="0.0" width="252" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16.5"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VFP-QB-hGs">
+                            <rect key="frame" x="0.0" y="0.0" width="338" height="68"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuItemButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="QH6-uh-zTA"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="entryIcon" destination="ZiI-Kp-ayP" id="tka-Xa-0cS"/>
+                        <outlet property="entryLabel" destination="G5j-z0-rsH" id="Mtw-RU-plf"/>
+                    </connections>
+                </view>
+                <view tag="7" contentMode="scaleToFill" id="7Tc-bB-UDE" customClass="MenuViewEntry">
+                    <rect key="frame" x="1" y="496" width="338" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="menuSeparator" id="nSM-AR-xOM">
+                            <rect key="frame" x="0.0" y="66" width="338" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="iPad_menuAboutUsIcon" highlightedImage="menuAboutUsSelected" id="ZWN-aV-gEg">
+                            <rect key="frame" x="27" y="0.0" width="24" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hyy-4u-Y34">
+                            <rect key="frame" x="86" y="0.0" width="252" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16.5"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4WE-Yu-BnD">
+                            <rect key="frame" x="0.0" y="0.0" width="338" height="68"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuItemButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="0Yf-Si-KsI"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="entryIcon" destination="ZWN-aV-gEg" id="RK2-Tg-dEJ"/>
+                        <outlet property="entryLabel" destination="hyy-4u-Y34" id="QVh-7U-Csy"/>
+                    </connections>
+                </view>
+                <view tag="8" contentMode="scaleToFill" id="xQf-w6-01B" customClass="MenuViewEntry">
+                    <rect key="frame" x="1" y="564" width="338" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="menuSeparator" id="umE-VE-l9S">
+                            <rect key="frame" x="0.0" y="66" width="338" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="iPad_menuContactUsIcon" highlightedImage="menuContactUsSelected" id="zaY-PQ-kpm">
+                            <rect key="frame" x="27" y="0.0" width="24" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Us" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nhz-rr-SAc">
+                            <rect key="frame" x="86" y="0.0" width="252" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16.5"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NPr-PH-lmW">
+                            <rect key="frame" x="0.0" y="0.0" width="338" height="68"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuItemButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="e3S-Vt-Txu"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="entryIcon" destination="zaY-PQ-kpm" id="WF8-6R-OFi"/>
+                        <outlet property="entryLabel" destination="nhz-rr-SAc" id="HaJ-Jw-zCr"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" id="zJt-L3-b68">
+                    <rect key="frame" x="1" y="632" width="338" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="menuSeparator" id="eIn-gL-4V4">
+                            <rect key="frame" x="0.0" y="66" width="338" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="iPad_menuLangaugeIcon" id="Wv2-02-mTN">
+                            <rect key="frame" x="27" y="0.0" width="24" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Language" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X0X-A4-Oyc">
+                            <rect key="frame" x="86" y="0.0" width="252" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16.5"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5A8-oI-VRV">
+                            <rect key="frame" x="0.0" y="0.0" width="338" height="68"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuItemButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="j3c-7B-uQq"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="oYW-SX-MjX">
+                    <rect key="frame" x="0.0" y="700" width="338" height="68"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="menuSeparator" id="FTP-ZK-jTO">
+                            <rect key="frame" x="0.0" y="66" width="338" height="2"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="iPad_menuSignoutIcon" id="e3Q-cj-w3h">
+                            <rect key="frame" x="27" y="0.0" width="24" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign out" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zza-dC-Sl8">
+                            <rect key="frame" x="86" y="0.0" width="252" height="66"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16.5"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mig-qp-w3F">
+                            <rect key="frame" x="0.0" y="0.0" width="338" height="68"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuItemButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="ahw-9d-faB"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="4FR-eB-2KE">
+                    <rect key="frame" x="336" y="0.0" width="2" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.31764705882352939" green="0.32549019607843138" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="WI0-4p-4eY">
+                    <rect key="frame" x="0.0" y="0.0" width="2" height="768"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.21176470588235294" green="0.22352941176470587" blue="0.25490196078431371" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.16078431369999999" green="0.17254901959999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="aboutUsLabel" destination="hyy-4u-Y34" id="LwL-1T-mGH"/>
+                <outlet property="contactUsLabel" destination="nhz-rr-SAc" id="Gmw-5e-ToN"/>
+                <outlet property="eguideLabel" destination="Ixl-lr-KdB" id="SSY-YJ-7EA"/>
+                <outlet property="esrviceLabel" destination="I8j-HO-Rv0" id="uMO-L2-c0y"/>
+                <outlet property="eventsLabel" destination="lmo-hJ-Yko" id="I18-bA-NtH"/>
+                <outlet property="homeLabel" destination="oKC-1V-u9j" id="nFo-2e-xo2"/>
+                <outlet property="imagesLabel" destination="n7o-Ui-IV5" id="hfv-Ab-VxR"/>
+                <outlet property="languageLabel" destination="X0X-A4-Oyc" id="p17-v3-n0B"/>
+                <outlet property="newsLabel" destination="YaM-sU-G99" id="OQD-QB-X3I"/>
+                <outlet property="signOutLabel" destination="zza-dC-Sl8" id="eX3-2Z-7Fz"/>
+                <outlet property="videosLabel" destination="G5j-z0-rsH" id="3ue-hH-rZL"/>
+                <outletCollection property="menuEntryViews" destination="dQ8-lA-r5D" id="95c-Hv-Ujl"/>
+                <outletCollection property="menuEntryViews" destination="ejS-t6-Vuc" id="vRn-6o-y1v"/>
+                <outletCollection property="menuEntryViews" destination="hfO-O9-acZ" id="Jxt-ot-DhA"/>
+                <outletCollection property="menuEntryViews" destination="4r9-Db-zVu" id="gpv-Uu-o8s"/>
+                <outletCollection property="menuEntryViews" destination="CVW-Le-m9s" id="1yV-SN-EzJ"/>
+                <outletCollection property="menuEntryViews" destination="IHu-5u-hn6" id="KpX-IK-Y7v"/>
+                <outletCollection property="menuEntryViews" destination="Q3g-q9-grt" id="2cE-ap-Esq"/>
+                <outletCollection property="menuEntryViews" destination="7Tc-bB-UDE" id="d80-jQ-Hld"/>
+                <outletCollection property="menuEntryViews" destination="xQf-w6-01B" id="xjf-Qy-vh1"/>
+            </connections>
+            <point key="canvasLocation" x="223" y="372"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iPad_menuAboutUsIcon" width="23" height="19"/>
+        <image name="iPad_menuContactUsIcon" width="23" height="22"/>
+        <image name="iPad_menuEServiceIcon" width="23" height="19"/>
+        <image name="iPad_menuEguideIcon" width="24" height="20"/>
+        <image name="iPad_menuEventsIcon" width="22" height="22"/>
+        <image name="iPad_menuHomeIcon" width="24" height="21"/>
+        <image name="iPad_menuImagesIcon" width="22" height="18"/>
+        <image name="iPad_menuLangaugeIcon" width="24" height="24"/>
+        <image name="iPad_menuNewsIcon" width="22" height="21"/>
+        <image name="iPad_menuSignoutIcon" width="25" height="25"/>
+        <image name="iPad_menuVideosIcon" width="22" height="22"/>
+        <image name="menuAboutUsSelected" width="23" height="19"/>
+        <image name="menuContactUsSelected" width="23" height="22"/>
+        <image name="menuEguideSelected" width="24" height="20"/>
+        <image name="menuEventsSelected" width="22" height="22"/>
+        <image name="menuHomeSelected" width="24" height="21"/>
+        <image name="menuImagesSelected" width="22" height="18"/>
+        <image name="menuNewsSelected" width="22" height="21"/>
+        <image name="menuSeparator" width="80" height="2"/>
+        <image name="menuServiceSelected" width="23" height="19"/>
+        <image name="menuVideosSelected" width="22" height="22"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,204 @@
+
+"SignUpFormURL" = "http://secb.linkdev.com/ar/Pages/QuickRegistration.aspx";
+
+"Lang_URL_Key" = "ar";
+
+"About Us" = "عن البرنامج";
+
+"Address" = "العنوان";
+
+"ago" = "منذ";
+
+"All" = "الكل";
+
+"All Day Event" = "فعالية طوال اليوم";
+
+"All form fields are mandatory" = "برجاء ادخال كل البيانات";
+
+"Any" = "الكل";
+
+"Apply Filters" = "تصفية";
+
+"Are you sure ?" = "هل انت متأكد";
+
+"BY TYPE" = "الفئة";
+"BY STATUS" = "الحالة";
+
+"Cancel" = "إلغاء";
+
+"Capacity" = "السعة";
+
+"City" = "المدينة";
+
+"Closed" = "المغلقة";
+
+"Contact Us" = "أتصل بنا";
+
+"Date" = "تايخ";
+
+"days" = "ايام";
+
+"E-Guide" = "الدليل";
+
+"E-mail" = "البريد الإلكتروني";
+
+"E-Services" = "الخدمات الإلكترونية";
+
+"E-Services" = "الخدمات الإلكترونية";
+
+"E-Services Form" = "نموذج الخدمة";
+
+"Email Address" = "البريد الإلكتروني";
+
+"Enter capacity to" = "السعة الكلية من";
+
+"Enter capacity from" = "السعة الكلية إلي";
+
+"Enter location name" = "أسم الموقع";
+"Location Name" = "أسم الموقع";
+
+"Enter organizer name" = "أسم المنظم";
+"Organizer Name"  = "أسم المنظم";
+
+"Event Details" = "تفاصيل الفعالية";
+
+"Events" = "الفعاليات";
+
+"Events Filter" = "تصفية الفعاليات";
+
+"Forgot password ?" = "هل نسيت كلمة المرور؟";
+
+"From" = "من";
+
+"Home" = "الرئيسية";
+
+"hours" = "ساعة";
+
+"Image Album" = "ألبوم الصور";
+
+"Images" = "الصور";
+
+"Images Gallery" = "مكتبة الصور";
+
+"In Progress" = "حالية";
+
+"Inbox" = "مهامي";
+
+"Job Title" = "المسمى الوظيفي";
+
+"Latest News" = "أحدث الأخبار";
+
+"Location Details" = "تفاصيل الموقع";
+
+"Location E-Guide" = "دليل المواقع";
+
+"Location Filter" = "تصفية المواقع";
+
+"LOCATION TYPE" = "نوع الموقع";
+
+"Login" = "تسجيل الدخول";
+
+"minutes" = "دقيقة";
+
+"Mobile Number" = "رقم الجوال";
+
+"Name" = "الاسم";
+
+"News" = "الأخبار";
+
+"News Details" = "تفاصيل الخبر";
+
+"News Filter" = "تصفية الاخبار";
+
+"No" = "لا";
+
+"Number" = "رقم";
+
+"Number of Rooms" = "عدد الغرف";
+
+"OK" = "موافق";
+
+"ok" = "موافق";
+
+"Organization" = "المنظمة";
+
+"Organizer Details" = "تفاصيل النمظم";
+
+"Organizer Filter" = "تصفية المنظمين";
+
+"Organizers E-Guide" = "دليل المنظمين";
+
+"Organizer’s E-Guide" = "دليل المنظمين";
+
+"password" = "كلمة المرور";
+
+"Password have been sent to your email address" = "تم إرسال كلمة المرور إلى عنوان بريدك الإلكتروني";
+
+"Password Not Match" = "كلمة المرور غير مطابقة";
+
+"Phone Number" = "التليفون";
+
+"Please enter a valid credentials" = "الرجاء إدخال بيانات صالحة";
+
+"Please enter user name" = "الرجاء إدخال اسم المستخدم";
+
+"Repeated Event" = "فعالية مكررة";
+
+"Requests" = "طلبات";
+
+"Reset Password" = "إعادة تعيين كلمة المرور";
+
+"Room Capacity" = "سعة الغرفة";
+
+"Room Space" = "مساحة الغرفة";
+
+"Room Type" = "نوع الغرفة";
+
+"seconds" = "ثواني";
+
+"Send" = "إرسال";
+
+"Services Requests" = "طلبات الخدمات";
+
+"Sign out" = "تسجيل الخروج";
+
+"Sign up" = "إنشاء حساب جديد";
+
+"Signup" = "حساب جديد";
+
+"Space" = "المساحة";
+
+"Status" = "الحالة";
+
+"Subject" = "الموضوع";
+
+"To" = "إلي";
+
+"TOTAL CAPACITY" = "السعة الكلية";
+
+"Type" = "النوع";
+
+"username" = "إسم المستخدم";
+
+"Video Album" = "ألبوم الفيديو";
+
+"Video Gallery" = "مكتبة الفيديو";
+
+"Videos" = "الفيديو";
+
+"View all Events" = "كل الفعاليات";
+
+"View all News" = "كل الأخبار";
+
+"Website" = "الموقع الإلكتروني";
+
+"Wish to book an appointment with SECB representatives?\nplease complete the form below:" = "هل ترغب في تحديد موعد مقابله مع ممثلي SECB  ؟\nيرجى ملء النموذج أدناه:";
+
+"Yes" = "نعم";
+
+"Your message have been sent successfully" = "تم إرسال رسالتك بنجاح";
+
+"Your Name" = "اسمك";
+
+"E-Service Filter" = "تصفية الخدمات";
+

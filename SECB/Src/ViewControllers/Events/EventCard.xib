@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MYRIADPRO-BOLD.otf">
+            <string>MyriadPro-Bold</string>
+        </mutableArray>
+        <mutableArray key="MYRIADPRO-REGULAR.otf">
+            <string>MyriadPro-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EventCard">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="95"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="IeJ-nd-e6g">
+                    <rect key="frame" x="9" y="8" width="79" height="79"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1jX-bj-Ex8">
+                            <rect key="frame" x="0.0" y="19" width="79" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Bold" family="Myriad Pro" pointSize="29"/>
+                            <color key="textColor" red="0.89803921568627454" green="0.58431372549019611" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OCT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="v2w-17-k9E">
+                            <rect key="frame" x="0.0" y="40" width="79" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="18"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.070588235294117646" green="0.1764705882352941" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="QtU-bJ-LFh">
+                    <rect key="frame" x="88" y="8" width="222" height="79"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sattttudi Arabia has enhanced the development of exhibitions." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5dq-2q-ygi">
+                            <rect key="frame" x="14" y="0.0" width="200" height="29"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <color key="textColor" red="0.070588235289999995" green="0.1764705882" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sattttudi Arabia has enhanced the development of exhibitions." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fzS-Jf-FuQ">
+                            <rect key="frame" x="14" y="37" width="200" height="27"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11.5"/>
+                            <color key="textColor" red="0.43137254901960786" green="0.43137254901960786" blue="0.43137254901960786" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" id="HPS-BL-vYG" customClass="LocalizableIconWithView">
+                            <rect key="frame" x="14" y="67" width="66" height="12"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="eventCardClockIcon" id="Vo9-qx-QZ1">
+                                    <rect key="frame" x="0.0" y="3" width="7" height="7"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:30 pm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zpv-t0-na0" userLabel="Ich">
+                                    <rect key="frame" x="10" y="0.0" width="58" height="12"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="9.5"/>
+                                    <color key="textColor" red="0.070588235289999995" green="0.1764705882" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="drawableView" destination="Vo9-qx-QZ1" id="zyc-QH-8IS"/>
+                                <outlet property="otherView" destination="Zpv-t0-na0" id="pn4-Tg-Tqj"/>
+                            </connections>
+                        </view>
+                        <view contentMode="scaleToFill" id="ury-yT-XBD" customClass="LocalizableIconWithView">
+                            <rect key="frame" x="81" y="67" width="66" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="eventCardLocationIcon" id="UkL-mG-49x">
+                                    <rect key="frame" x="0.0" y="3" width="7" height="7"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jeddah" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b6W-PI-XRc" userLabel="Ich">
+                                    <rect key="frame" x="10" y="0.0" width="58" height="12"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="9.5"/>
+                                    <color key="textColor" red="0.070588235289999995" green="0.1764705882" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="drawableView" destination="UkL-mG-49x" id="ZRH-Kd-cP8"/>
+                                <outlet property="otherView" destination="b6W-PI-XRc" id="CJE-ra-sHD"/>
+                            </connections>
+                        </view>
+                        <view contentMode="scaleToFill" id="yp5-HA-oF6" customClass="LocalizableIconWithView">
+                            <rect key="frame" x="148" y="67" width="66" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="eventCardfilterIcon" id="wbK-ud-ahl">
+                                    <rect key="frame" x="0.0" y="3" width="7" height="7"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Organizations" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5zx-cv-mWk" userLabel="Ich">
+                                    <rect key="frame" x="10" y="0.0" width="58" height="12"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="9.5"/>
+                                    <color key="textColor" red="0.070588235289999995" green="0.1764705882" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="drawableView" destination="wbK-ud-ahl" id="TXL-3J-YBI"/>
+                                <outlet property="otherView" destination="5zx-cv-mWk" id="UcO-8H-AAR"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.90980392156862744" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
+            <gestureRecognizers/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dayLabel" destination="1jX-bj-Ex8" id="yFy-Il-pkD"/>
+                <outlet property="drawableView" destination="IeJ-nd-e6g" id="ic4-6A-mdL"/>
+                <outlet property="eventCategoryLabel" destination="5zx-cv-mWk" id="hvp-3O-yaB"/>
+                <outlet property="eventDescriptionLabel" destination="fzS-Jf-FuQ" id="MyQ-SU-N8d"/>
+                <outlet property="eventLocationLabel" destination="b6W-PI-XRc" id="kRf-eJ-Zz5"/>
+                <outlet property="eventTimeLabel" destination="Zpv-t0-na0" id="37W-Va-bAY"/>
+                <outlet property="eventTitleLabel" destination="5dq-2q-ygi" id="pXv-n3-VBS"/>
+                <outlet property="monthLabel" destination="v2w-17-k9E" id="zeF-BE-cq3"/>
+                <outlet property="otherView" destination="QtU-bJ-LFh" id="Vvd-pL-rm4"/>
+                <outletCollection property="gestureRecognizers" destination="lhU-YV-XAX" appends="YES" id="gw8-jR-Ysn"/>
+            </connections>
+            <point key="canvasLocation" x="8" y="216.5"/>
+        </view>
+        <tapGestureRecognizer id="lhU-YV-XAX">
+            <connections>
+                <action selector="cardTapped:" destination="iN0-l3-epB" id="D2c-0F-GGv"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="eventCardClockIcon" width="7" height="7"/>
+        <image name="eventCardLocationIcon" width="5" height="8"/>
+        <image name="eventCardfilterIcon" width="7" height="7"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
